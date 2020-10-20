@@ -1,0 +1,22 @@
+on:
+  push: { "branches": ["master"] }
+
+jobs:
+  cachix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v8
+
+      - name: Setup Cachix
+        uses: cachix/cachix-action@v6
+        with:
+          name: staskell
+          signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
+
+      - name: Run tests
+        run: ./test.sh
