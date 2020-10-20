@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/nh2/static-haskell-nix",
+  "rev": "382150290ba43b6eb41981c1ab3b32aa31798140",
+  "date": "2020-10-06T20:24:57+02:00",
+  "sha256": "0zsyplzf1k235rl26irm27y5ljd8ciayw80q575msxa69a9y2nvd",
+  "fetchSubmodules": false
+}
