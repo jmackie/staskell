@@ -1,14 +1,14 @@
 # `staskell`
 
-![.github/workflows/ci.yaml](https://github.com/jmackie/staskell/workflows/.github/workflows/ci.yaml/badge.svg)
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+![.github/workflows/ci.yaml](https://github.com/jmackie/staskell/workflows/.github/workflows/ci.yaml/badge.svg)
 
 Quickly and easily write static Haskell executables with help from [Nix](https://nixos.org/).
 
 Essentially just some high-level helpers on top of [`static-haskell-nix`](https://github.com/nh2/static-haskell-nix)
 and a ready baked [cachix](https://staskell.cachix.org) so you can get going straight away.
 
-Currently only GHC 8.8.3 is supported --- open an issue if you want other versions.
+Currently only GHC 8.8.3 is supported (open an issue if you want other versions).
 
 ## How to use it
 
@@ -40,6 +40,8 @@ $ cachix use staskell
 ```
 
 And finally `nix-build` your static executable 🎉
+
+(See the [examples](https://github.com/jmackie/staskell/tree/master/examples/) folder for more)
 
 ## CI example
 
