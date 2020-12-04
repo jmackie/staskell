@@ -1,7 +1,7 @@
 # `staskell`
 
-[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 ![.github/workflows/ci.yaml](https://github.com/jmackie/staskell/workflows/.github/workflows/ci.yaml/badge.svg)
+[![Cachix Cache](https://img.shields.io/badge/cachix-staskell-blue.svg)](https://staskell.cachix.org)
 
 Quickly and easily write static Haskell executables with help from [Nix](https://nixos.org/).
 
