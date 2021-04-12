@@ -13,7 +13,7 @@ jobs:
         uses: cachix/install-nix-action@v12
 
       - name: Setup Cachix
-        uses: cachix/cachix-action@v8
+        uses: cachix/cachix-action@v10
         with:
           name: staskell
           signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
